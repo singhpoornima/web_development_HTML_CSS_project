@@ -1,0 +1,141 @@
+/* UNIVERSAL SELECTOR */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Rose', cursive;
+}
+/* HTML BODY DECORATION */
+body{
+ color: #ffff00;
+  height:100vh; 
+  width: 100vw; 
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/project-1/Assets/res-bg.png) no-repeat; 
+  background-size: cover;
+  min-height: 100px;
+}
+/* HEADER STARTED */
+/* NAVIGATION */
+li{
+  list-style: none;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+
+/* BUTTON DECORATION */
+
+button{
+  background-color: #ff505f;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  width: fit-content;
+  margin-top: auto;
+}
+
+/* BUTTON HOVER DECORATION */
+
+button:hover{
+  background-color:#000000;
+  color: #f52727;
+  font-weight: 900;
+  border: 1px solid #000000;
+}
+
+/* SMALL-BUTTON DECOR */
+
+.small-button{
+  padding: 12px 25px;
+  font-size:12px;
+}
+
+/* BIG-BUTTON DECOR */
+
+.big-button{
+  padding: 12px 32px;
+}
+
+/* ----------------------------------------------- */
+/* -------------------NAVBAR------------------------ */
+/* ---------------------------------------------------- */
+/*------------- NAVIGATION BAR DECORATION--------------- */
+
+nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content:space-around;
+  margin-top:4%;
+}
+
+/* LOGO IN NAVIGATION BAR */
+
+ .logo img{
+  position: relative;
+  margin-top: 5%;
+  float: left;
+  font-size:30px;
+  width: 50%;
+}
+
+/* LIST IN NAVIGATION BAR */
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: opx 3px;
+  font-weight: 500;
+}
+
+/* ANCHOR TAG DECORATION IN LIST OF THE UNORDERED LIST IN NAVIGATION BAR  */
+
+nav ul li a{
+  color:#ffc233;
+}
+
+/* GIVING HOVER DECORATION TO THE ANCHOR TAG IN NAVIGATION BAR OF UNORDERED LIST */
+
+nav ul li a:hover {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+/* ---------------------------------- */
+/* --------------HERO----------------- */
+/* ------------------------------------ */
+/*----- STARTED HERO SECTION------------ */
+
+.hero{
+position: absolute;
+top: 33%;
+left: 30%;
+}
+
+/* GIVING DECORATION TO THE HEADING IN THE HERO OR MAIN SECTION  */
+
+.heading{
+  font-family: 'Dela Gothic One', cursive; 
+  font-style: normal;
+  font-weight: 900;
+  font-size: 37px;
+  text-align: center;
+  color: #ffc233;
+  line-height:66px;
+}
+
+/* ---------------------------------------- */
+/* ------------FOOTER-------------------- */
+/* ---------------------------------------- */
+/*--------- DECORATING FOOTER IMAGE LOGO--------- */
+
+.foot img{
+  width:9% ;
+   position:absolute;
+  top: 90%;
+  left: 87%;
+  }
