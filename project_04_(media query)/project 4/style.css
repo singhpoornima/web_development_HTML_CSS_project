@@ -1,0 +1,89 @@
+/* ---UNIVERSAL SELECTORS---- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----HTML BODY DECORATION---- */
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #22e4e4;
+    color: #000000;
+}
+
+/* -------HEADING DECOR------ */
+
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+
+.laptop-larger,
+.laptop,
+.tablet,
+.mobile {
+font-size: 40px;
+text-align: center;
+display: none;
+}
+
+/* ----------------------------------------------------------- */
+/* --------------MEDIA QUERIES USING MAX-WIDTH---------------- */
+/* ------------------------------------------------------------- */
+
+@media screen and (max-width:1440px){
+   body{ background-color: #a52a2a;
+    }
+    .laptop-large {
+        display:block;
+    }
+    }
+
+ @media screen and (max-width:1024px) {
+    body{
+        background-color:#7fff00;
+    }
+    .laptop-large{
+     display: none;
+    }
+    
+    .laptop{
+        display:block;
+    }
+}
+
+    @media screen and (max-width:768px) {
+        body{
+            background-color:#ff8c00;
+        }
+        .laptop-large{
+            display: none;
+        }
+        .laptop{
+            display:none;
+        }
+        .tablet{
+            display:block;
+        }
+    }  
+    
+    @media  screen and (max-width:425px) {
+      body{
+        background-color:#556b2f;
+      }
+      .laptop-large{
+        display: none;
+      }
+      .laptop{
+        display: none;  
+        }
+       .tablet{
+        display: none;
+         } 
+      .mobile{
+        display: block;
+      }  
+    } 
