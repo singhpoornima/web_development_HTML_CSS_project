@@ -1,0 +1,134 @@
+/* UNIVERSAL SELECTOR */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-------- HTML BODY DECORATION------- */
+
+BODY{
+    height: 100vh;
+    width: 100wh;
+    background-color: #f0f8ff;
+}
+
+/* ----HEADER STARTED---- */
+
+li{ list-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* -----BUTTON DECORATION ------ */
+
+button{
+    background-color:#5955b3;
+    color: #ffffff;
+    border: none;
+    border-radius:7px;
+    cursor: pointer;
+    width: fit-content;
+}
+/* ---BUTTO-HOVER----- */
+button:hover{
+    background-color: #f7294c;
+    color: #000000;
+    font-weight: 600;
+    font-style: normal;
+}
+/* -----SMALL-BUTTON DECOR--- */
+.small-button{
+    font-weight:300;
+    padding: 9px 17px;
+    text-align: right;
+}
+/* ------BIG-BUTTON DECOR---- */
+.big-button{
+    font-weight: 400;
+    padding: 10px 17px;
+    position: relative;
+    margin-top: 10%;
+}
+
+/* ------------------------------------------------------------------- */
+/* ----------------------------NAVBAR----------------------------------*/
+/* --------------------------------------------------------------------- */
+/* ----------------------------NAVIGATION BAR DECORATION--------------- */
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*---NAVIGATION LIST DECOR-----  */
+
+nav ul{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 45px;
+font-size:15px;
+font-weight: 600;
+text-align: left;
+position: relative;
+right: 9%;
+}
+
+/* ----NAV BAR LOGO DECOR----- */
+.logo img{
+    position: relative;
+    margin-top: 5%;
+    width: 57%;
+}
+
+/* -------ANCHOR TAG DECORATION IN LIST OF THE UNORDERED LIST IN NAVIGATION BAR------- */
+li a{
+    color: #000000;
+}
+/* -----HOVER DECOR OVER ANCHOR TAG IN LIST OF THE UNORDERED LIST OF NAVIGATION BAR----- */
+li a:hover{
+    text-decoration: underline;
+    color: #f7294c;
+    font-weight:600;
+    font-size:14px ;
+}
+/* -------------------------------------------------------- */
+/* --------DECORATING MAIN SECTION OR HERO SECTON--------- */
+/* -------------------------------------------------------- */
+/* -----LEFT SECTION DECORATION ----- */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+h1{
+    font-family: poppins;
+    color:#3c2f60;
+    font-weight:900;
+    font-size:39px;
+    font-family: poppins;
+}
+h1 span{
+  color:#5955b3;
+}
+p{
+    font-size:11px;
+    font-weight:300;
+    color: #828282;
+    margin-top: 14px;
+}
+
+/* -------RIGHT SECTION DECORATION------ */
+img{
+    width:77%;
+    position: relative;
+    left: 11%;
+}
