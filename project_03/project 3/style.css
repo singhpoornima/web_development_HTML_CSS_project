@@ -1,0 +1,152 @@
+/* --------------UNIVERSAL-SELECTORS-------- */
+/* ------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------------------------*/
+/* -----HTML-BODY-DECORATION----- */
+/* ---------------------------------------- */
+
+body{
+    height: 100vh;
+    width: 100wh;
+    background: url(./Assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+}
+
+/* ----HEADER-STARTED--- */
+/* --NAVIGATION---- */
+
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+/* ------BUTTON- DECORATION FOR THE BOTH HEADER AND MAIN SECTION------ */
+/* -----SMALL BUTTON DECOR OF THE NAVIGATION BAR----- */
+
+.small-button{
+  background-color: #ba0cc5;
+  color:#ffffff ; 
+  font-weight:700;
+  padding: 8px 30px;
+  border: none; 
+  border-radius:5px; 
+}
+
+/* -----------BIG-BUTTON-DECOR OF THE MAIN  SECTION-------*/
+
+.big-button{
+    background-color:#ba0cc5;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 48px;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+    position: relative;
+    margin-top:11%;
+}
+
+/* ------BUTTON HOVER-------- */
+
+button:hover{
+    background-color:#0000ff;
+    color:#000000;
+    font-size:15px;
+    font-weight:700px;
+}
+
+/* ---------------------------------------------------------------------- */
+/* ------------------------------NAVBAR---------------------------------------- */
+/* ------------------------------------------------------------------------ */
+/* ----------------------NAVIGATION BAR DECORATION------------------------- */
+
+nav{
+    display:flex ;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000;
+}
+
+/* -------LIST IN NAVIGATION BAR------ */
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 50px;
+    position: relative;
+    margin-right:26%;
+}
+
+/*----- LOGO IN NAVIGATION BAR----- */
+
+.logo img{
+    width:60%;
+    position: relative;
+    margin-top: 5%;
+    font-size:10px;
+    font-weight: 200;
+}
+
+.line{
+    width: 1px;
+    height:31px;
+    background-color: #fff;
+    margin-left:10px;
+}
+
+/* ------HOVER DECOR OVER ANCHOR TAG IN LIST OF NAVIGATION BAR-------  */
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: #0000ff;
+    font-weight: 500;
+}
+/* --------ANCHOR TAG DECORATION OF NAVIGATIN BAR------ */
+nav ul li a{
+    color: #ffffff;
+    font-weight:300;
+    font-family: poppins;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* ---------------------------MAIN SECTION------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+/* -----------------------STARTED MAIN SECTION-------------------------------------------- */
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top:11%;
+    text-align: center;
+}
+
+/* -----------HEADIND DECOR---------- */
+
+h1{
+    color: #ffffff;
+    font-size:60px;
+    line-height:75px;
+}
+
+/* ---------PARAGRAPH DECORATION-------- */
+
+p{
+    color: #ffffff;
+    font-weight:400;
+}
