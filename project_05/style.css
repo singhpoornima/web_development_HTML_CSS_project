@@ -1,0 +1,207 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: #ffffff;
+}
+
+
+
+/* Header section */
+header nav #hambrger {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    list-style: none;
+    margin-top: 5px;
+}
+
+header nav ul #home {
+    background-color: #6464e0;
+    padding: 3px 4px;
+    border-radius: 4px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Intro section */
+#intro #left-side-content #wave-hand {
+    display: none;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    gap: 2%;
+}
+
+#intro #left-side-content {
+    position: relative;
+    margin-top: 5%;
+}
+
+#intro #left-side-content p {
+    color: #c5c559;
+}
+
+/* Projects section */
+#projects-section h3 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#projects-section #horizontal-line {
+    border: 2px solid #0000ff;
+    border-radius: 2px;
+    width: 6%;
+    position: relative;
+    left: 47.1%;
+}
+
+#projects-section #projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+#projects-section #projects-list p {
+    text-align: center;
+}
+
+/* Footer section */
+#contact-details h3 {
+   text-align: center;
+}
+
+#contact-details {
+    margin-top: 5%;
+}
+
+#contact-details #staright-line {
+    border: 2px solid #0000ff;
+    border-radius: 2px;
+    width: 7%;
+    position: relative;
+    left: 46.5%;
+}
+
+#contact-details #social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    gap: 8px;
+}
+
+#contact-details #social-links:hover {
+    cursor: pointer;
+}
+
+/****************************************************************************************************/
+/******************************* media query *******************************************************/
+/****************************************************************************************************/
+
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    /* Header section */
+    header nav ul {
+        display: none;
+    }
+
+    header nav #hambrger {
+        display: block;
+    }
+
+    /* Intro section */
+    /* Left side content */
+
+    #intro {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #intro #left-side-content #wave-hand {
+        display: block;
+    }
+
+    #intro #left-side-content #waving-hand {
+        display: none;
+    }
+
+    #intro #left-side-content {
+        text-align: center;
+        margin-bottom: 3%;
+    }
+
+    #intro #left-side-content p {
+        color: #c5c559;;
+    }
+
+    /* Right side content */
+
+    #right-side-content {
+        margin-top: 2%;
+    }
+
+    /* Projects section */
+    #projects-section h3 {
+        text-align: center;
+    }
+    
+    #projects-section #horizontal-line {
+        border: 2px solid #0000ff;
+        margin-top: 5px;
+        width: 15%;
+        position: relative;
+        left: 42.5%;
+        border-radius: 3px;
+    }
+
+    #projects-section #projects-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Footer section */
+    /* Contact details */
+
+    #contact-details #staright-line {
+        border: 2px solid #0000ff;
+        width: 15%;
+        margin-right: 93.5%;
+
+    }
+
+    #contact-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+        
+    }
+
+    
+
+   
+
+}
